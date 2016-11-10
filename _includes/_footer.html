@@ -1,0 +1,40 @@
+    <div id="up-to-top" class="row">
+      <div class="small-12 columns" style="text-align: right;">
+        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+      </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+
+    <footer id="footer-content" class="bg-grau">
+      <div id="footer">
+        <div class="row">
+          <div class="large-6 columns">
+            <h5>Contact Information</h5>
+            <p>
+              <br />Advanced Research Services, LLC<br />111 High Street, Morgantown, WV 26505<br />Phone: 304-xxx-xxxx<br /><a href="https://docs.google.com/forms/d/e/1FAIpQLSfO624PD1Q1zDH2xEPxwoueEN7yYmuNAEZ7g1A9xsjKBSC5dw/viewform">Contact Us</a>
+            </p>
+          </div><!-- /.large-6.columns -->
+
+          <div class="large-6 columns">
+          </div><!-- /.large-3.columns -->
+        </div><!-- /.row -->
+
+      </div><!-- /#footer -->
+
+
+      <div id="subfooter">
+        <nav class="row">
+          <section id="subfooter-left" class="small-12 medium-6 columns credits">
+            {{ site.credits }}
+          </section>
+
+          <section id="subfooter-right" class="small-12 medium-6 columns">
+            <ul class="inline-list social-icons">
+            {% for social_item in site.data.socialmedia %}
+              <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+            {% endfor %}
+            </ul>
+          </section>
+        </nav>
+      </div><!-- /#subfooter -->
+    </footer>

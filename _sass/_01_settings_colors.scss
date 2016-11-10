@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* TOC – Color Variables
+
+- Basics
+- Corporate Identity Colorpalette
+- Foundation Color Variables
+- Grey Scale
+- Topbar-Navigation
+- Footer
+- Code
+
+*/
+
+/* Corporate Identity Colorpalette
+   https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
+------------------------------------------------------------------- */
+
+$ci-1: #0d4687; // ars blue
+$ci-2: #262626; // ars black
+$ci-3: #F2B10E; // ars yellow
+$ci-4: #F27C15; // ars orange
+$ci-5: #bf0a30; // ars red
+$ci-6: #0D9136; // ars green
+$ci-7: #dedede; // ars grey
+$ci-8: #ffffff; // ars white
+
+/* Basics
+------------------------------------------------------------------- */
+
+$text-color: $ci-2;
+$body-font-color: $text-color;
+$body-bg: $ci-8;
+
+/* Foundation Color Variables
+------------------------------------------------------------------- */
+
+$primary-color: $ci-1;
+$secondary-color: $ci-5;
+$alert-color: $ci-5;
+$success-color: $ci-6;
+$warning-color: $ci-4;
+$info-color: $ci-1;
+
+/* Grey Scale
+------------------------------------------------------------------- */
+
+$white: $ci-8;
+$grey-1: $ci-7;
+$grey-2: #cacaca;
+$grey-3: #b6b6b6;
+$grey-4: #b6b6b6;
+$grey-5: #A2a2a2;
+$grey-6: #8e8e8e;
+$grey-7: #7a7a7a;
+$grey-8: #656565;
+$grey-9: #515151;
+$grey-10: #3d3d3d;
+$grey-11: $ci-2;
+$grey-12: #151515;
+
+
+/* Topbar-Navigation
+------------------------------------------------------------------- */
+
+$topbar-bg-color: $body-bg;
+$topbar-bg: $topbar-bg-color;
+
+
+$topbar-dropdown-toggle-color: $white;
+
+$topbar-link-color: $ci-2;
+$topbar-link-color-hover: $white;
+$topbar-link-color-active: $white;
+$topbar-link-color-active-hover: $white;
+
+$topbar-dropdown-label-color: $white;
+$topbar-dropdown-link-bg-hover: $grey-9;
+
+$topbar-link-bg-active: $ci-5; // Active Navigation Link
+$topbar-link-bg-hover: $ci-2;
+$topbar-link-bg-active-hover: darken($ci-5, 10);
+
+
+$topbar-dropdown-bg: $grey-1; // Background Mobile Navigation
+$topbar-dropdown-link-color: $grey-2;
+$topbar-dropdown-link-bg: $grey-9;
+
+$topbar-menu-link-color-toggled: $ci-2;
+$topbar-menu-icon-color-toggled: $white;
+$topbar-menu-link-color: $white;
+$topbar-menu-icon-color: $white;
+$topbar-menu-link-color-toggled: $white;
+$topbar-menu-icon-color-toggled: $white;
+
+
+
+/* Footer
+------------------------------------------------------------------- */
+
+$footer-bg: $grey-1;
+$footer-color: $ci-2;
+$footer-link-color: $ci-1;
+
+
+$subfooter-bg: $grey-12;
+$subfooter-color: $grey-4;
+$subfooter-link-color: $grey-2;
+
+
+
+/* Code
+------------------------------------------------------------------- */
+
+$code-background-color: scale-color($secondary-color, $lightness: 70%);
+
+$highlight-background: #ffffff;
+$highlight-comment: #999988;
+$highlight-error: #a61717;
+$highlight-comment-special: #999999;
+$highlight-deleted: #000000;
+$highlight-error-2: #aa0000;
+$highlight-literal-string: #d14;
+$highlight-literal-number: #009999;
+$highlight-name-attribut: #008080;
+$highlight-error-background: #e3d2d2;
+$highlight-generic-deleted: #ffdddd;
+$highlight-generic-deleted-specific: #ffaaaa;
+$highlight-generic-inserted: #ddffdd;
+$highlight-generic-inserted-specific: #aaffaa;
+$highlight-generic-output: #888888;
+$highlight-generic-prompt: #555555;
+$highlight-subheading: #aaaaaa;
+$highlight-keyword-type: #445588;
+$highlight-name-builtin: #0086B3;
+$highlight-name-class: #445588;
+$highlight-name-entity: #800080;
+$highlight-name-exception: #990000;
+$highlight-name-function: #990000;
+$highlight-name-namespace: #555555;
+$highlight-name-tag: #000080;
+$highlight-text-whitespace: #bbbbbb;
+$highlight-literal-string-regex: #009926;
+$highlight-literal-string-symbol: #990073;

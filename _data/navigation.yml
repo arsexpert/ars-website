@@ -1,0 +1,15 @@
+- title: Home
+  url: "/"
+  side: right
+
+- title: Services
+  url: "/services/"
+  side: right
+
+- title: "About"
+  url: "/about/"
+  side: right
+
+- title: "Contact"
+  url: "https://docs.google.com/forms/d/1PiqcjeTIXngWjnIDK-M6DE7H3m4-BUcN7GWLDE5mZ9o/edit"
+  side: right

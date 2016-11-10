@@ -1,0 +1,43 @@
+/* hero
+------------------------------------------------------------------- */
+
+.ars-hero__container {
+  h2, p, a {
+    color: $white;
+    text-shadow: 1px 1px #000;
+    max-width: 550px;
+  }
+  h2 {
+    font-size: 3.5rem;
+    line-height: 3.3rem;
+    letter-spacing: 1px;
+
+  }
+  p {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    letter-spacing: 1px;
+  }
+  a.button {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+
+/* Masthead
+------------------------------------------------------------------- */
+
+#masthead-with-text {
+    text-align: center;
+    font-size: rem-calc(54);
+    font-family: $header-font-family;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+    #masthead {
+        height: auto;
+        padding-bottom: 3rem;
+    }
