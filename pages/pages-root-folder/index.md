@@ -10,15 +10,15 @@ header:
 widget1:
   title: "Business Valuation and Consulting"
   url: 'services#valuation'
-  text: 'Intro text for this section. Leads to the backpage explaining how we can help you with this service.'
+  text: 'Advanced Research Services performs valuation of closely held companies for business transactions, estate and tax planning, and assessment of damages in litigation cases.'
 widget2:
   title: "Litigation Consulting and Support"
   url: 'services#litigation'
-  text: 'Intro text for this section. Leads to the backpage explaining how we can help you with this service.'
+  text: 'Advanced Research Services may be retained for litigation consulting and support.'
 widget3:
   title: "Expert Witness Testimony"
   url: 'services#witness'
-  text: 'Intro text for this section. Leads to the backpage explaining how we can help you with this service.'
+  text: 'Mr. DeProspero, President of Advanced Research Services, has testified in both Federal and State Court as an Expert Witness.'
 #
 # Use the call for action to show a button on the frontpage
 #
